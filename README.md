@@ -1,2 +1,2 @@
-# Blog
-Blog posts of www.TinkCode.com
+# TinkCode
+Homepage : www.TinkCode.com
