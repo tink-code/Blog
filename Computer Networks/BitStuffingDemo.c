@@ -1,3 +1,5 @@
+/* Implement the Datalink layer framing methods such as Bit Stuffing */
+
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
