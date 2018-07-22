@@ -5,7 +5,7 @@ struct node
 {
 	unsigned dist[20];
 	unsigned from[20];
-}rt[10];
+} rt[10];
 
 int main()
 {
@@ -23,7 +23,7 @@ int main()
 			rt[i].from[j]=j;
 		}
 	}
-	
+
 	do{
 		count=0;
 		for(i=0;i<n;i++){
@@ -38,9 +38,9 @@ int main()
 			}
 		}
 	} while(count!=0);
-	
+
 	for(i=0;i<n;i++){
-		printf("\nState value for router %d is \n",i+1);
+			printf("\nState value for router %d is \n",i+1);
 		for(j=0;j<n;j++){
 			printf("\nnode %d via %d Distance%d",j+1,rt[i].from[j]+1,rt[i].dist[j]);
 		}
