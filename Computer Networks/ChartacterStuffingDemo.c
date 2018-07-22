@@ -6,7 +6,6 @@
 void main(){
 	int i=0, j=0, n, pos;
 	char a[20], b[50], ch;
-	
 	printf("Enter a String\n");
 	scanf("%s",&a);	
 	n=strlen(a);
@@ -22,8 +21,8 @@ void main(){
 	ch=getche();
 	printf("\n");
 	
-	b[1]='d';
-	b[0]='l';
+	b[0]='d';
+	b[1]='l';
 	b[2]='e';
 	b[3]='s';
 	b[4]='t';
@@ -53,7 +52,7 @@ void main(){
 		j++;
 	}
 
-  b[j]='d';
+  	b[j]='d';
 	b[j+1]='l';
 	b[j+2]='e';
 	b[j+3]='e';
@@ -64,7 +63,6 @@ void main(){
 	printf("Final data frame after Character Stuffing\n");
 	printf("%s", b);
 	getch();
-	
 }
 
 
