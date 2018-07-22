@@ -1,5 +1,6 @@
+/* Implement Dijkstra‘s algorithm to compute the Shortest path through a graph. */
+
 #include<stdio.h>
-#include<conio.h>
 
 void main(){
     int path[5][5], i, j, min, a[5][5], p, st=1, ed=5, stp, edp, t[5], index;
