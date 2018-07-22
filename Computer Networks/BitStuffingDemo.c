@@ -1,8 +1,8 @@
 /* Implement the DataLink layer framing method such as BIT STUFFING */
 
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
+
 void main(){
     int a[20], b[20], i, j, k, count, n;
     printf("Enter frame length(max = 20) : ");
