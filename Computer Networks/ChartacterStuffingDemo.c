@@ -31,7 +31,7 @@ void main(){
 	
 	while(i<n){
 		if(i==pos-1){
-			b[j]='d';
+		    b[j]='d';
 			b[j+1]='l';
 			b[j+2]='e';
 			b[j+3]=ch;
