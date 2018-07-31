@@ -1,3 +1,5 @@
+/* Take a 64 bit Plain Text and Encrypt the same using DES Algorithm */
+
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
