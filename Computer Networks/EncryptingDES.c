@@ -10,8 +10,8 @@ void main()
     while(1)
     {
         printf("\n==== MENU ====\n");
-        printf("\n1:DataEncryption\t\n\n2:DataDecryption\t\n\n3:Exit");
-        printf("\n\nEnteryourchoice:");
+        printf("\n1: Data Encryption\t\n\n2: Data Decryption\t\n\n3: Exit");
+        printf("\n\nEnter your choice:");
         scanf("%d",&ch);
         switch(ch)
         {
