@@ -84,4 +84,3 @@ void xor(int x)
         for(i=1;i<k;i++)
                 temp[i-1]=(x==0)?temp[i]^0:temp[i]^key[i];
 }
-
