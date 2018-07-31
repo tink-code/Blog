@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-voidmain()
+void main()
 {
-    inti,ch,lp;
-    charcipher[50],plain[50];
-    charkey[50];
+    int i,ch,lp;
+    char cipher[50],plain[50];
+    char key[50];
     clrscr();
     while(1)
     {
@@ -15,24 +15,24 @@ voidmain()
         scanf("%d",&ch);
         switch(ch)
         {
-            case1:  printf("\nDataEncryption")
-                    printf("\nEntertheplaintext:");
+            case1:  printf("\nData Encryption")
+                    printf("\nEnter the Plaintext : ");
                     fflush(stdin);
                     gets(plain);
-                    printf("\nEntertheencryptionkey:");
+                    printf("\nEnter the Encryption Key : ");
                     gets(key);
                     lp=strlen(key);
                     for(i=0;plain[i]!='\0';i++)
                         cipher[i]=plain[i]^lp;
                     cipher[i]='\0';
-                    printf("\nTheencryptedtextis:");
+                    printf("\nThe Encrypted Text is : ");
                     puts(cipher);
                 break;
             
-            case2:  printf("\nDatadecryption");
+            case2:  printf("\nData Decryption");
                     for(i=0;cipher[i]!='\0';i++)
                         plain[i]=cipher[i]^lp;
-                    printf("\nDecryptedtextis:");
+                    printf("\nDecrypted Text is : ");
                     puts(plain);
                 break;
             
