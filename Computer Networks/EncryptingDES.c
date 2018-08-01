@@ -18,26 +18,26 @@ void main()
 		switch(ch)
 		{
 		case 1: printf("\nData Encryption");
-				printf("\nEnter the plain text:");
-				fflush(stdin);
-				gets(plain);
-				printf("\nEnter the encryption key:");
-				gets(key);
-				lp=strlen(key);
-				for(i=0;plain[i]!='\0';i++)
-					cipher[i]=plain[i]^lp;
-				cipher[i]='\0';
-				printf("\nThe encrypted text is:");
-				puts(cipher);		
-				break;
+			printf("\nEnter the plain text:");
+			fflush(stdin);
+			gets(plain);
+			printf("\nEnter the encryption key:");
+			gets(key);
+			lp=strlen(key);
+			for(i=0;plain[i]!='\0';i++)
+				cipher[i]=plain[i]^lp;
+			cipher[i]='\0';
+			printf("\nThe encrypted text is:");
+			puts(cipher);		
+			break;
 		
 		case 2: printf("\nData decryption");
-				for(i=0;cipher[i]!='\0';i++)
-					plain[i]=cipher[i]^lp;
-				printf("\nDecrypted text is:");
-				puts(plain);
-				break;
-		
+			for(i=0;cipher[i]!='\0';i++)
+				plain[i]=cipher[i]^lp;
+			printf("\nDecrypted text is:");
+			puts(plain);
+			break;
+
 		case 3: exit(0);
 		}
 	}
