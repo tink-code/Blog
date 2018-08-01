@@ -13,7 +13,7 @@ void main()
 	char pwd[20];
 	char alpha[26]="abcdefghijklmnopqrstuvwxyz";
 	int num[20],i,n,key;
-	//clrscr();
+	clrscr();
 	printf("\nEnter the password:");
 	scanf("%s",&pwd);
 	n=strlen(pwd);
