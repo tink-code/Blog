@@ -10,30 +10,30 @@ Now, write a program to break the above DES coding.
 
 void main()
 {
-	char pwd[20];
+	char enc[20];
 	char alpha[26]="abcdefghijklmnopqrstuvwxyz";
 	int num[20],i,n,key;
 	clrscr();
-	printf("\nEnter the password:");
-	scanf("%s",&pwd);
-	n=strlen(pwd);
+	printf("\nEnter the Decrypted text:");
+	scanf("%s",&enc);
+	n=strlen(enc);
 	for(i=0;i<n;i++)
-		num[i]=toascii(tolower(pwd[i]))-'a';
+		num[i]=toascii(tolower(enc[i]))-'a';
 	printf("\nEnter the key:");
 	scanf("%d",&key);
 	for(i=0;i<n;i++)
 		num[i]=(num[i]+key)%26;
 	for(i=0;i<n;i++)
-		pwd[i]=alpha[num[i]];
-	printf("\nThe key is:%d",key);
-	printf("\nEncrypted text is:%s",pwd);
+		enc[i]=alpha[num[i]];
+	//printf("\nThe key is:%d",key);
+	printf("\nPlain text is:%s",enc);
 	for(i=0;i<n;i++)
 	{
 		num[i]=(num[i]-key)%26;
 		if(num[i]<0)
 			num[i]=26+num[i];
-		pwd[i]=alpha[num[i]];
+		enc[i]=alpha[num[i]];
 	}
-	printf("\nDecrypted text is:%s",pwd);
+	//printf("\nEncrypted text is : %s",enc);
 	getch();
 }
