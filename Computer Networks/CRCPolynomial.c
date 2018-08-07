@@ -7,7 +7,7 @@ void main()
 	void read(); 
 	void crc();    
 	clrscr();
-	printf("\n\t\tCRC\n"); 
+	printf("\n\t\t=== CRC ===\n"); 
 	read();
 	crc(); 
 	getch();
@@ -15,12 +15,12 @@ void main()
 
 void read()
 {
-	printf("\nEnter the frame length:"); 
+	printf("\nEnter the frame length : "); 
 	scanf("%d",&fl);
-	printf("\nEnter the frame:"); 
+	printf("\nEnter the frame : "); 
 	for(i=0;i<fl;i++) 
 	scanf("%d",&frame[i]);
-	printf("\n1:CRC-10\t2:CRC-16\t3:CRC-CCITT\n"); 
+	printf("\n1: CRC-10\t2: CRC-16\t3: CRC-CCITT\n"); 
 	scanf("%d",&ch);
 	if(ch==1)
 	{
@@ -43,7 +43,7 @@ void read()
 	n=fl+k-1;
 	printf("\nPolynomial is:"); 
 	for(i=0;i<k;i++)
-	printf("%d",key[i]);
+		printf("%d",key[i]);
 }
 
 void crc()
@@ -58,13 +58,13 @@ void crc()
 			xor(0);
 		else
 		{
-		if(temp[0]==1) 
-			xor(1);
-		if(i!=fl) 
-			temp[k-1]=msg[g++];
+			if(temp[0]==1) 
+				xor(1);
+			if(i!=fl) 
+				temp[k-1]=msg[g++];
 		}
 	}
-	printf("\nCheck Sum=\n"); 
+	printf("\nChecksum : \n"); 
 	for(i=fl,j=0;i<n;i++,j++)
 		msg[i]=temp[j]; 
 	for(i=0;i<k;i++)
