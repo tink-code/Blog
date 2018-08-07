@@ -6,7 +6,7 @@ void main()
 {
 	void read(); 
 	void crc();    
-	//clrscr();
+	clrscr();
 	printf("\n\t\tCRC\n"); 
 	read();
 	crc(); 
