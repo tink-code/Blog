@@ -30,7 +30,7 @@
 **Solution :** <br>
 [CeaserCipher.java](Programs/CeaserCipher.java)<br>
 [SubstitutionCipher.java](Programs/SubstitutionCipher.java)<br>
-[HillCipher.java](https://github.com/tink-code/Cryptography%20and%20Network%20Security/Programs/HillCipher.java)
+[HillCipher.java](Programs/HillCipher.java)
 
 ---
 
