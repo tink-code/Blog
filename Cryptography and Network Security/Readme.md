@@ -21,10 +21,10 @@
 
 ### Program3
 
-> Write a Java program to perform Encryption and Decryption using the following algorithms 
-<br>a) Ceaser cipher  
-<br>b) Substitution cipher  
-<br>c) Hill cipher
+> Write a Java program to perform Encryption and Decryption using the following algorithms <br>
+a) Ceaser cipher  
+b) Substitution cipher  
+c) Hill cipher
 
 **Solution :** <br>
 [CeaserCipher.java](Programs/CeaserCipher.java)<br>
