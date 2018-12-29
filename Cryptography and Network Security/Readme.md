@@ -4,7 +4,8 @@
 
 > Write a C program that contains a string(char pointer) with a value ‘Hello  World’. The program should XOR each character in this string with 0 and displays the result.
 
-**Solution :**
+**Solution :** <br>
+[XOR.c](Programs/XOR.c)
 
 ---
 
@@ -13,7 +14,8 @@
 
 > Write a C program that contains a string(char pointer) with a value ‘Hello  world’. The program should AND or and XOR each character in this string with 127 and display the result.
 
-**Solution :**
+**Solution :** <br>
+[ANDXOR.c](Programs/ANDXOR.c)
 
 ---
 
