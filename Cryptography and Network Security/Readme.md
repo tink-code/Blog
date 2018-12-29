@@ -26,8 +26,8 @@
 > c) Hill cipher
 
 **Solution :** <br>
-[CeaserCipher.java](https://github.com/tink-code/blog/Cryptography%20and%20Network%20Security/Programs/CeaserCipher.java)<br>
-[SubstitutionCipher.java](https://github.com/tink-code/Cryptography%20and%20Network%20Security/Programs/SubstitutionCipher.java)<br>
+[CeaserCipher.java](Programs/CeaserCipher.java)<br>
+[SubstitutionCipher.java](Programs/SubstitutionCipher.java)<br>
 [HillCipher.java](https://github.com/tink-code/Cryptography%20and%20Network%20Security/Programs/HillCipher.java)
 
 ---
@@ -36,7 +36,8 @@
 
 > Write a C/JAVA program to implement the DES algorithm logic.
 
-**Solution :**
+**Solution :** <br>
+[DES.java](Programs/DES.java)
 
 ---
 
@@ -44,7 +45,8 @@
 
 > Write a C/JAVA program to implement the Blowfish algorithm logic.
 
-**Solution :**
+**Solution :** <br>
+[Blowfish.java](Programs/Blowfish.java)
 
 ---
 
@@ -52,7 +54,8 @@
 
 > Write a C/JAVA program to implement the Rijndael algorithm logic.
 
-**Solution :**
+**Solution :** <br>
+[Rijndael.java](Programs/Rijndael.java)
 
 ---
 
@@ -62,13 +65,15 @@
 
 **Solution :**
 
+
 ---
 
 ### Program8
 
 > Write a Java program to implement RSA algorithm.
 
-**Solution :**
+**Solution :** <br>
+[RSA.java](Programs/RSA.java)
 
 ---
 
@@ -78,13 +83,15 @@
 
 **Solution :**
 
+
 ---
 
 ### Program10
 
 > Calculate the message digest of atext using the SHA-1 algorithm in JAVA.
 
-**Solution :**
+**Solution :** <br>
+[SHA1.java](Programs/SHA1.java)
 
 ---
 
@@ -92,7 +99,8 @@
 
 > Calculate the message digest of a text using the MD5 algorithm in JAVA.
 
-**Solution :**
+**Solution :** <br>
+[MD5.java](Programs/MD5.java)
 
 ---
 
