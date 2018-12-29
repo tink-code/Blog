@@ -25,7 +25,10 @@
 > b) Substitution cipher  
 > c) Hill cipher
 
-**Solution :**
+**Solution :** <br>
+[CeaserCipher.java](https://github.com/tink-code/blog/Cryptography%20and%20Network%20Security/Programs/CeaserCipher.java)<br>
+[SubstitutionCipher.java](https://github.com/tink-code/Cryptography%20and%20Network%20Security/Programs/SubstitutionCipher.java)<br>
+[HillCipher.java](https://github.com/tink-code/Cryptography%20and%20Network%20Security/Programs/HillCipher.java)
 
 ---
 
