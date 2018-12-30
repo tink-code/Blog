@@ -1,6 +1,6 @@
 # Cryptography and Network Security Lab
 
-### Program1
+### Program 1
 
 > Write a C program that contains a string(char pointer) with a value ‘Hello  World’. The program should XOR each character in this string with 0 and displays the result.
 
@@ -10,7 +10,7 @@
 ---
 
 
-### Program2
+### Program 2
 
 > Write a C program that contains a string(char pointer) with a value ‘Hello  world’. The program should AND or and XOR each character in this string with 127 and display the result.
 
@@ -19,7 +19,7 @@
 
 ---
 
-### Program3
+### Program 3
 
 > Write a Java program to perform Encryption and Decryption using the following algorithms <br>
 a) Ceaser cipher  
@@ -33,7 +33,7 @@ c) Hill cipher
 
 ---
 
-### Program4
+### Program 4
 
 > Write a C/JAVA program to implement the DES algorithm logic.
 
@@ -42,7 +42,7 @@ c) Hill cipher
 
 ---
 
-### Program5
+### Program 5
 
 > Write a C/JAVA program to implement the Blowfish algorithm logic.
 
@@ -51,7 +51,7 @@ c) Hill cipher
 
 ---
 
-### Program6
+### Program 6
 
 > Write a C/JAVA program to implement the Rijndael algorithm logic.
 
@@ -60,7 +60,7 @@ c) Hill cipher
 
 ---
 
-### Program7
+### Program 7
 
 > Write the RC4 logic in Java using Java cryptography; encrypt the text "Hello world" using Blowfish. Create your own key using Java keytool.
 
@@ -69,7 +69,7 @@ c) Hill cipher
 
 ---
 
-### Program8
+### Program 8
 
 > Write a Java program to implement RSA algorithm.
 
@@ -78,7 +78,7 @@ c) Hill cipher
 
 ---
 
-### Program9
+### Program 9
 
 > Implement the Diffie-Hellman Key Exchange mechanism using HTML and JavaScript.
 
@@ -87,7 +87,7 @@ c) Hill cipher
 
 ---
 
-### Program10
+### Program 10
 
 > Calculate the message digest of atext using the SHA-1 algorithm in JAVA.
 
@@ -96,7 +96,7 @@ c) Hill cipher
 
 ---
 
-### Program11
+### Program 11
 
 > Calculate the message digest of a text using the MD5 algorithm in JAVA.
 
