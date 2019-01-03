@@ -13,15 +13,9 @@ void main(){
 	clrscr();
 
 	for(i=0; i<len; i++){
-		//printf("\n%d & %d",str1[i], 127);
+		//printf("\n%d OPER %d",str1[i], 127);
 		AND[i]=str1[i]&127;
-	}
-
-	for(i=0; i<len; i++){
 		OR[i]=str2[i]|0;
-	}
-
-	for(i=0; i<len; i++){
 		XOR[i]=str3[i]^0;
 	}
 
