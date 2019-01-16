@@ -1,6 +1,9 @@
 # Cryptography and Network Security Lab
 ----
 
+Home page : www.tink-code.github.io/blog/CNS
+----
+
 ### Program 1
 
 > Write a C program that contains a string(char pointer) with a value ‘Hello  World’. The program should XOR each character in this string with 0 and displays the result.
