@@ -90,7 +90,7 @@ c) Hill cipher
 
 ### Program 10
 
-> Calculate the message digest of atext using the SHA-1 algorithm in JAVA.
+> Calculate the message digest of a text using the SHA-1 algorithm in JAVA.
 
 **Solution :** <br>
 [SHA1.java](Programs/SHA1.java)
