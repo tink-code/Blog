@@ -1,7 +1,7 @@
 # Cryptography and Network Security Lab
 ----
 
-Home page : www.tink-code.github.io/blog/CNS
+Home page : [www.tink-code.github.io/blog/CNS](https://tink-code.github.io/blog/Cryptography%20and%20Network%20Security/)
 ----
 
 ### Program 1
