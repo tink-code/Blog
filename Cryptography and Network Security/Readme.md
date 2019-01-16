@@ -28,7 +28,7 @@ b) Substitution cipher
 c) Hill cipher
 
 **Solution :** <br>
-[CeaserCipher.java](Programs/CeaserCipher.java)<br>
+[CaesarCipher.java](Programs/CaesarCipher.java)<br>
 [SubstitutionCipher.java](Programs/SubstitutionCipher.java)<br>
 [HillCipher.java](Programs/HillCipher.java)
 
