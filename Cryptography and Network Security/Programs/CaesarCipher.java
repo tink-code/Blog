@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class CeaserCipher {
+public class CaesarCipher {
 static Scanner sc=new Scanner(System.in);
 static BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
 
