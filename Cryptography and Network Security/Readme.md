@@ -23,7 +23,7 @@
 ### Program 3
 
 > Write a Java program to perform Encryption and Decryption using the following algorithms <br>
-a) Ceaser cipher  
+a) Caesar cipher  
 b) Substitution cipher  
 c) Hill cipher
 
