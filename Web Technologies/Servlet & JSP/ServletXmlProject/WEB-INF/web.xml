@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<display-name>login</display-name>
+	<servlet>
+		<servlet-name>LoginController</servlet-name>
+		<servlet-class>LoginController</servlet-class>
+	
+	<init-param>
+		<param-name>username1</param-name>
+		<param-value>Tomcat</param-value>
+	</init-param>
+	
+	<init-param>
+		<param-name>password1</param-name>
+		<param-value>s3cret</param-value>
+	</init-param>
+	
+	<init-param>
+		<param-name>username2</param-name>
+		<param-value>Akhil</param-value>
+	</init-param>
+	
+	<init-param>
+		<param-name>password2</param-name>
+		<param-value>admin123</param-value>
+	</init-param>
+	
+	<init-param>
+		<param-name>username3</param-name>
+		<param-value>Scott</param-value>
+	</init-param>
+	
+	<init-param>
+		<param-name>password3</param-name>
+		<param-value>Tiger</param-value>
+	</init-param>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/LoginController</url-pattern>
+	</servlet-mapping>
+
+</web-app>
