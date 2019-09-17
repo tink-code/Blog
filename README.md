@@ -1,5 +1,5 @@
 # TinkCode 
-<b>Official Hompage :</b> [www.TinkCode.com](www.tinkcode.com) <br>
+<b>Official Hompage :</b> [www.TinkCode.xyz](www.tinkcode.xyz) <br>
 <b>Github Link :</b> [www.tink-code.github.io/blog/](https://tink-code.github.io/blog/)
 
 _____
